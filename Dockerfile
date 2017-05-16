@@ -12,7 +12,7 @@ ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$CATALINA_HOME/scripts
 
 # Install Tomcat
 ENV TOMCAT_MAJOR 8
-ENV TOMCAT_VERSION 8.5.9
+ENV TOMCAT_VERSION 8.5.15
 
 RUN wget http://apache.crihan.fr/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
  tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
