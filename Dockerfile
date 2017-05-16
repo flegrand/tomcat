@@ -6,7 +6,7 @@ RUN yum -y update && \
  yum -y install tar
 
 # Prepare environment 
-ENV JAVA_HOME /opt/java
+ENV JAVA_HOME /
 ENV CATALINA_HOME /opt/tomcat 
 ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$CATALINA_HOME/scripts
 
