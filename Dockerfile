@@ -1,4 +1,4 @@
-FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk
+FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-8-jdk
 
 # Install prepare infrastructure
 RUN yum -y update && \
